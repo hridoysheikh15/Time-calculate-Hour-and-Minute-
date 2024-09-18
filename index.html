@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h1 id="header">Time Calculator</h1>
+    <h6>Enter Your Time: </h6>
+    <p>Start time: </p>
+    <div class="flex wrap g-1">
+      <div class="flex col">
+        <label for="hour">Hour</label>
+        <input type="number" id="shour" value="0">
+      </div>
+      <div class="flex col">
+        <label for="hour">Minute</label>
+        <input type="number" id="smin" value="0">
+      </div>
+      <div class="flex col">
+        <label for="hour">Second</label>
+        <input type="number" id="ssec" value="0">
+      </div>
+    </div>
+    <p>End Time:</p>
+    <div class="flex wrap g-1">
+      <div class="flex col">
+        <label for="hour">Hour</label>
+        <input type="number" id="ehour" value="0">
+      </div>
+      <div class="flex col">
+        <label for="hour">Minute</label>
+        <input type="number" id="emin" value="0">
+      </div>
+      <div class="flex col">
+        <label for="hour">Second</label>
+        <input type="number" id="esec" value="0">
+      </div>
+    </div>
+    <button onclick="cal()">Submit</button>
+    <div id="output"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
