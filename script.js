@@ -1,13 +1,13 @@
 function cal() {
   let out = document.getElementById('output');
 
-  let startHour = document.getElementById('shour');
-  let startMinute = document.getElementById('smin');
-  let startSecond = document.getElementById('ssec');
+  let startHour = Number(document.getElementById('shour'));
+  let startMinute = Number(document.getElementById('smin'));
+  let startSecond = Number(document.getElementById('ssec'));
 
-  let endHour = document.getElementById('ehour');
-  let endMinute = document.getElementById('emin');
-  let endSecond = document.getElementById('esec');
+  let endHour = Number(document.getElementById('ehour'));
+  let endMinute = Number(document.getElementById('emin'));
+  let endSecond = Number(document.getElementById('esec'));
 
   var secDif, minDif, hourDif;
 
